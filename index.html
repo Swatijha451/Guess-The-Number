@@ -8,21 +8,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>Guess a number</h1>
-        <p id="msg">Guess a random number between 1 and 100!</p>
-        <div class="inpt">
-            <input type="text" >
-        </div>
-        <div class="bttn">
-            <button >submit</button>
-        </div>
+        <h1>Number guessing game</h1>
+        <p>Guess a random number between 1 and 100!</p>
+        <br>
+        <p class="lowOrHigh"></p>
+        <form class="form">
+            <label for="guessField" id="guess" class="guessField"> Guess a number</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="submit" value="submit guess" class="guessSuubmit">
+        </form>
+
+        <div class="resultparas">
             
-        
-        <div class="prev">
-            <p >previous guesses:</p>
-        </div>
-        <div class="rem">
-            <p>Guesses remaining:</p>
+            <p>Previous guesses: <span class="guesses"></span></p>
+            <p>Guesses remaining: <span class="lastResult">10</span></p>
+            
         </div>
     </div>
     <script src="app.js"></script>
