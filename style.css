@@ -20,6 +20,26 @@
     
     
 }
+#guessField{
+    display: block;
+    margin: 1rem;
+}
+#guess{
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+#submit{
+    
+    margin: 0.5rem;
+}
+p{
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+
+
 /* h1,#msg,.your_guesses,#guess,#previous,#remaining{
     margin:30px;
     display:block;
